@@ -106,7 +106,7 @@ export function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 md:mb-6">Lost & Found</h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-6 md:mb-8">
-              Помогаем находить потерянное и возвращать найденное
+              {t('heroSubtitle')}
             </p>
             
             {/* Search Bar */}
